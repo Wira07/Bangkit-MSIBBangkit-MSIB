@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="email">Email</string>
+    <string name="copyright">© YudaWahfiudin</string>
+    <string name="password">Password</string>
+    <string name="login">MASUK</string>
+    <string name="register">BUAT AKUN BARU</string>
+    <string name="don_t_have_an_account_yet">Belum punya akun?</string>
+    <string name="em_invalid_email">Email tidak valid</string>
+    <string name="error_empty_email">Silahkan masukkan email anda</string>
+    <string name="error_empty_password">Silahkan masukkan password anda</string>
+    <string name="em_password_min_length">Password harus lebih dari 6 karakter</string>
+    <string name="error_empty_name">Silahkan masukkan nama anda</string>
+    <string name="name_text_view">Nama</string>
+    <string name="login_failed">Login Gagal</string>
+    <string name="network_unavailable">Koneksi tidak tersedia!</string>
+    <string name="second_ago">detik lalu</string>
+    <string name="minutes_ago">menit lalu</string>
+    <string name="hours_ago">jam lalu</string>
+    <string name="days_ago">hari lalu</string>
+    <string name="loading">Loading</string>
+    <string name="language">Bahasa</string>
+    <string name="logout">Keluar</string>
+    <string name="enter_your_name">Masukkan nama anda</string>
+    <string name="enter_your_email">Masukkan email anda</string>
+    <string name="enter_your_password">Masukkan password anda</string>
+    <string name="signup_failed">Gagal Daftar</string>
+    <string name="account_created">Akun telah dibuat</string>
+    <string name="text_uploaded">Diunggah pada</string>
+    <string name="story_uploaded">Story diunggah</string>
+    <string name="check_input">Cek Inputan Anda</string>
+    <string name="name">Nama</string>
+    <string name="description">Deskripsi</string>
+    <string name="tv_description">Deskripsi</string>
+    <string name="previewstory">Pratinjau Story</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="didnt_get_permission">Tidak mendapat izin</string>
+    <string name="input_image_first">Masukkan gambar terlebih dahulu</string>
+    <string name="already_have_an_account">Sudah punya akun?</string>
+    <string name="please_enter_picture">Silahkan masukkan gambar</string>
+    <string name="imageregister">gambarRegister</string>
+</resources>

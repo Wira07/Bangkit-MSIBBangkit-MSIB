@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDialogLoading" parent="Theme.MaterialComponents.Light.Dialog.Alert.Bridge">
+        <item name="android:windowMinWidthMajor">0dp</item>
+        <item name="android:windowMinWidthMinor">0dp</item>
+    </style>
+    
+    <style name="colorButton"  >
+        <item name="colorButtonNormal">#000068</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/navyBlue</item>
+        <item name="android:background">@color/navyBlue</item>
+    </style>
+</resources>

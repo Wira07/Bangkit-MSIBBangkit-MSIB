@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@color/SecondaryColor">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/L_img_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L_img_1"
+        android:text="Selamat Datang"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/black"
+        android:id="@+id/L_txt_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login"
+        android:id="@+id/L_img_2"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/L_txt_1"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/L_img_2"
+        android:padding="30dp"
+        android:id="@+id/ly_1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Create Password"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/edit_password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Confirm Password"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/edit_conf_password"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:background="@drawable/button_shape"
+        android:layout_below="@id/ly_1"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/white"
+        android:id="@+id/L_btn_1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/L_btn_1"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No a Have Account"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Register"
+            android:id="@+id/txt_register"
+            android:textColor="@color/abu_abu"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

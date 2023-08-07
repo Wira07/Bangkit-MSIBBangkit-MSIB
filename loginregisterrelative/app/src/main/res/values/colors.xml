@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#50C2C9</color>
+    <color name="SecondaryColor">#55BBAF</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="background">#eeeeee</color>
+    <color name="abu_abu">#1f242d</color>
+    <color name="brown">#FF9800</color>
+    <color name="warning">#FD640C0C</color>
+    <color name="greeybu">#C6C3C3</color>
+</resources>

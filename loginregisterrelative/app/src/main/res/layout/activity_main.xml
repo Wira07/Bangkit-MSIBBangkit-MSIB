@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/SecondaryColor">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/gambar1"
+        android:id="@+id/img_1"/>
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/img_1"
+      android:id="@+id/img_2"
+      android:layout_centerHorizontal="true"
+      android:src="@drawable/gambar2"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:id="@+id/txt_1"
+        android:layout_below="@+id/img_2"
+        android:textSize="25dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_1"
+        android:text="Di aplikasi pelayanan Masyarakat yang sejahtera di daerah indonesia negara tercinta kita semuanya"
+        android:gravity="center"
+        android:padding="20dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:id="@id/text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/text"
+        android:width="300dp"
+        android:text="login"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsbold"
+        android:background="@drawable/button_shape"
+        android:id="@+id/btn_1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btn_1"
+        android:width="300dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsbold"
+        android:background="@drawable/button_shape"
+        android:id="@+id/btn_2"/>
+
+
+</RelativeLayout>
